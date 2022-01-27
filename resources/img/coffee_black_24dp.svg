@@ -1,0 +1,8 @@
+<svg id="coffee_black_24dp" xmlns="http://www.w3.org/2000/svg" width="109.291" height="109.291" viewBox="0 0 109.291 109.291">
+  <g id="Group_1" data-name="Group 1">
+    <path id="Path_1" data-name="Path 1" d="M0,0H109.291V109.291H0Z" fill="none"/>
+  </g>
+  <g id="Group_2" data-name="Group 2" transform="translate(18.215 13.661)">
+    <path id="Path_2" data-name="Path 2" d="M70.03,3H13.108A9.134,9.134,0,0,0,4,12.108v26c0,17.441,13.434,32.7,30.875,33.2A31.909,31.909,0,0,0,67.753,39.43V34.876H70.03A15.938,15.938,0,0,0,70.03,3ZM58.645,12.108V25.769H13.108V12.108Zm0,22.769V39.43a22.769,22.769,0,1,1-45.538,0V34.876M70.03,25.769H67.753V12.108H70.03a6.831,6.831,0,0,1,0,13.661ZM4,75.86H76.86v9.108H4Z" transform="translate(-4 -3)" fill="#fff"/>
+  </g>
+</svg>

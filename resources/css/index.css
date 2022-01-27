@@ -1,0 +1,451 @@
+:root {
+
+    /* Colors: */
+    --unnamed-color-313131: #313131;
+    --unnamed-color-4e94bf: #4E94BF;
+    --unnamed-color-f7f3ed: #F7F3ED;
+    --unnamed-color-b4b58a: #B4B58A;
+    --unnamed-color-fab995: #FAB995;
+    --unnamed-color-ffffff: #FFFFFF;
+    --unnamed-color-707070: #707070;
+    
+    /* Font/text values */
+    --unnamed-font-family-bebas-neue: Bebas Neue;
+    --unnamed-font-family-montserrat: Montserrat;
+    --unnamed-font-style-normal: normal;
+    --unnamed-font-weight-bold: bold;
+    --unnamed-font-weight-medium: medium;
+    --unnamed-font-size-24: 24px;
+    --unnamed-font-size-35: 35px;
+    --unnamed-font-size-60: 60px;
+    --unnamed-font-size-200: 200px;
+    --unnamed-character-spacing-0: 0px;
+    --unnamed-character-spacing-3-5: 3.5px;
+    --unnamed-line-spacing-36: 36px;
+    --unnamed-line-spacing-180: 180px;
+    --unnamed-text-transform-uppercase: uppercase;
+    }
+    
+    /* Character Styles */
+    .h4-montserrat-—-35pt {
+      font-family: var(--unnamed-font-family-montserrat);
+      font-style: var(--unnamed-font-style-normal);
+      font-weight: var(--unnamed-font-weight-bold);
+      font-size: var(--unnamed-font-size-35);
+      line-height: var(--unnamed-line-spacing-36);
+      letter-spacing: var(--unnamed-character-spacing-0);
+      color: var(--unnamed-color-ffffff);
+    }
+
+    .h2-bebas-neue-—-60pt {
+      font-family: var(--unnamed-font-family-bebas-neue);
+      font-style: var(--unnamed-font-style-normal);
+      font-weight: var(--unnamed-font-weight-bold);
+      font-size: var(--unnamed-font-size-60);
+      line-height: var(--unnamed-line-spacing-180);
+      letter-spacing: var(--unnamed-character-spacing-0);
+      color: var(--unnamed-color-313131);
+    }
+
+    .h3-montserrat-—-35pt {
+      font-family: var(--unnamed-font-family-montserrat);
+      font-style: var(--unnamed-font-style-normal);
+      font-weight: var(--unnamed-font-weight-bold);
+      font-size: var(--unnamed-font-size-35);
+      line-height: var(--unnamed-line-spacing-36);
+      letter-spacing: var(--unnamed-character-spacing-3-5);
+      color: var(--unnamed-color-313131);
+      text-transform: var(--unnamed-text-transform-uppercase);
+    }
+
+    .body-montserrat-—-24pt {
+      font-family: var(--unnamed-font-family-montserrat);
+      font-style: var(--unnamed-font-style-normal);
+      font-weight: var(--unnamed-font-weight-medium);
+      font-size: var(--unnamed-font-size-24);
+      line-height: var(--unnamed-line-spacing-36);
+      letter-spacing: var(--unnamed-character-spacing-0);
+      color: var(--unnamed-color-313131);
+    }
+
+    .h1-bebas-neue-—-200pt {
+      font-family: var(--unnamed-font-family-bebas-neue);
+      font-style: var(--unnamed-font-style-normal);
+      font-weight: var(--unnamed-font-weight-bold);
+      font-size: var(--unnamed-font-size-200);
+      line-height: var(--unnamed-line-spacing-180);
+      letter-spacing: var(--unnamed-character-spacing-0);
+      color: var(--unnamed-color-707070);
+    }
+
+    /* -- Header -- */
+    .div-rectangle7 {
+      /* Layout Properties */
+      top: 0px;
+      left: 0px;
+      width: auto;
+      height: 151px;
+      
+      /* UI Properties */
+      background: var(--unnamed-color-313131) 0% 0% no-repeat padding-box;
+      opacity: 1;
+    }
+
+    .tmd-logo {
+      /* Layout Properties */
+      top: 40px;
+      left: 141px;
+      width: 177px;
+      height: 71px;
+      
+      /* UI Properties */
+      margin: auto;
+      float: left;
+      background-image: url('../img/tmd_logo.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+      display: block;
+    }
+
+    .header-menu {
+      /* Layout Properties */
+      height: 151px;
+      width: auto;
+      position: relative;
+
+      /* UI Properties */
+      font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-24)/var(--unnamed-line-spacing-36) var(--unnamed-font-family-montserrat);
+      letter-spacing: var(--unnamed-character-spacing-0);
+      color: var(--unnamed-color-ffffff);
+      opacity: 1;
+    }
+
+    .component1-1 {
+       /* Layout Properties */
+       top: 61px;
+       left: 836px;
+       width: 248px;
+       height: 29px;
+ 
+       /* UI Properties */
+       font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-24)/var(--unnamed-line-spacing-36) var(--unnamed-font-family-montserrat);
+       letter-spacing: var(--unnamed-character-spacing-0);
+       color: var(--unnamed-color-ffffff);
+       text-align: center;
+       letter-spacing: 0px;
+       opacity: 1;
+    }
+
+    .component2-1 {
+      /* Layout Properties */
+      top: 61px;
+      left: 1114px;
+      width: 248px;
+      height: 29px;
+
+      /* UI Properties */
+      font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-24)/var(--unnamed-line-spacing-36) var(--unnamed-font-family-montserrat);
+      letter-spacing: var(--unnamed-character-spacing-0);
+      color: var(--unnamed-color-ffffff);
+      text-align: center;
+      letter-spacing: 0px;
+      opacity: 1;
+    }
+
+    .component3-1 {
+      /* Layout Properties */
+      top: 61px;
+      left: 1392px;
+      width: 248px;
+      height: 29px;
+
+      /* UI Properties */
+      font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-24)/var(--unnamed-line-spacing-36) var(--unnamed-font-family-montserrat);
+      letter-spacing: var(--unnamed-character-spacing-0);
+      color: var(--unnamed-color-ffffff);
+      text-align: center;
+      letter-spacing: 0px;
+      opacity: 1;
+    }
+
+
+    /* -- Coffee Bag -- */
+
+    .div-rectangle1 {
+      /* Layout Properties */
+      top: 0px;
+      left: 0px;
+      width: auto;
+      height: 1322px;
+      
+      /* UI Properties */
+      background: var(--unnamed-color-f7f3ed) 0% 0% no-repeat padding-box;
+      opacity: 1;
+    }
+
+    .coffeeBag {
+      /* Layout Properties */
+      width: 1505px;
+      height: 1662px;
+      
+      /* UI Properties */
+      float: left;
+      background: transparent url('../img/CoffeeBag-Header.png');
+      background-size:cover;
+      background-repeat: no-repeat;
+      display: block;
+      opacity: 1;
+    }
+
+    .learn-button {
+      /* Layout Properties */
+      top: 981px;
+      left: 280px;
+      width: 248px;
+      height: 29px;
+
+      /* UI Properties */
+      font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-24)/var(--unnamed-line-spacing-36) var(--unnamed-font-family-montserrat);
+      letter-spacing: var(--unnamed-character-spacing-0);
+      color: var(--unnamed-color-ffffff);
+      background-color: #4E94BF;
+      text-align: center;
+      border-radius: 8px;
+      opacity: 1;
+    }
+
+    /* -- Pink Box  -- */
+
+    .div-rectangle8 {
+      /* Layout Properties */
+      top: 1323px;
+      left: 0px;
+      width: auto;
+      height: 495px;
+
+      /* UI Properties */
+      background: var(--unnamed-color-fab995) 0% 0% no-repeat padding-box;
+      background: #FAB995 0% 0% no-repeat padding-box;
+      opacity: 1;
+    }
+
+    .div-line {
+      padding-top: 3%;
+      padding-left: 20%
+    }
+
+    .line {
+      /* Layout Properties */
+      top: 1396px;
+      left: 244px;
+      width: 0px;
+      height: 349px;
+
+      /* UI Properties */
+      border: 8px solid var(--unnamed-color-ffffff);
+      opacity: 1;
+    }
+
+    .div-info {
+      padding-top: 5%;
+      padding-left: 2%;
+      padding-right: 20%;
+    }
+
+    /* Row of Images */
+
+    .div-rectangle10 {
+      /* Layout Properties */
+      top: 1818px;
+      left: 0px;
+      width: auto;
+      height: 1144px;
+
+      /* UI Properties */
+      background: transparent linear-gradient(180deg, var(--unnamed-color-b4b58a) 0%, var(--unnamed-color-f7f3ed) 100%) 0% 0% no-repeat padding-box;
+      opacity: 1;
+    }
+
+    .cherry-slider {
+      /* Layout Properties */
+      height: 754px;
+
+      /* UI Properties */
+      background: url('../img/Coffee-Cherry-slider-1.jpg') 0% 0% no-repeat padding-box;
+      box-shadow: 0px 3px 6px #00000029;
+      border-radius: 15px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      display: block;
+      opacity: 1;
+    }
+
+    .grower-slider {
+      /* Layout Properties */
+      height: 754px;
+
+      /* UI Properties */
+      background: url('../img/grower-slider-2.jpg');
+      box-shadow: 0px 3px 6px #00000029;
+      border-radius: 15px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      display: block;
+      opacity: 1;
+    }
+
+    .worker-slider {
+      /* Layout Properties */
+      height: 754px;
+
+      /* UI Properties */
+      background: url('../img/CoffeeWorker-slider-3.jpg');
+      box-shadow: 0px 3px 6px #00000029;
+      border-radius: 15px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      display: block;
+      opacity: 1;
+    }
+
+    .roaster-slider {
+      /* Layout Properties */
+      height: 754px;
+
+      /* UI Properties */
+      background: url('../img/Roaster-Slider-4.jpg');
+      box-shadow: 0px 3px 6px #00000029;
+      border-radius: 15px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      display: block;
+      opacity: 1;
+    }
+
+    .img-arrow {
+      /* Layout Properties */
+      top: 2687px;
+      left: 560px;
+      height: 24px;
+
+      /* UI Properties */
+      background: transparent url('../img/Icon material-arrow-forward.svg');
+      background-repeat: no-repeat;
+      display: block;
+      opacity: 1;
+    }
+
+    .full-icon-circle{
+      top: 2850px;
+      left: 888px;
+      width: 19px;
+      height: 19px;
+
+      background: transparent url('../img/Icon awesome-circle.svg');
+      background-repeat: no-repeat;
+      display: block;
+      opacity: 1;
+    }
+
+    .open-icon-circle{
+      top: 2851px;
+      left: 1016px;
+      width: 16px;
+      height: 16px;
+
+
+      background: transparent url('../img/Icon feather-circle.svg');
+      background-repeat: round;
+      display: block;
+      opacity: 1;
+    }
+
+    /* Icons in Blue box */
+
+    .div-rectangle11 {
+      /* Layout Properties */
+      top: 2962px;
+      left: 0px;
+      width: auto;
+      height: 426px;
+
+      /* UI Properties */
+      background: transparent url('../img/Rectangle 11.png') 0% 0% no-repeat padding-box;
+      opacity: 1;
+    }
+
+    .coffee-icon {
+      /* Layout Properties */
+      top: 3065px;
+      left: 280px;
+      height: 109px;
+
+      /* UI Properties */
+      background: transparent url('../img/coffee_black_24dp.svg');
+      background-repeat: no-repeat;
+      background-position: 50%;
+      opacity: 1;
+    }
+
+    .trophy-icon {
+      /* Layout Properties */
+      top: 3065px;
+      left: 697px;
+      height: 109px;
+
+      /* UI Properties */
+      background: transparent url('../img/emoji_events_black_24dp.svg');
+      background-repeat: no-repeat;
+      background-position: 50%;
+      opacity: 1;
+    }
+
+    .face-icon {
+      /* Layout Properties */
+      top: 3065px;
+      left: 1114px;
+      height: 109px;
+
+      /* UI Properties */
+      background: transparent url('../img/sentiment_satisfied_alt_black_24dp.svg');
+      background-repeat: no-repeat;
+      background-position: 50%;
+      opacity: 1;
+    }
+
+    .verified-icon {
+      /* Layout Properties */
+      top: 3065px;
+      left: 1531px;
+      height: 109px;
+
+      /* UI Properties */
+      background: transparent url('../img/verified_black_24dp.svg');
+      background-repeat: no-repeat;
+      background-position: 50%;
+      opacity: 1;
+    }
+
+    /* -- Footer -- */
+
+    .rectangle14 {
+      /* Layout Properties */
+      top: 3388px;
+      left: 0px;
+      width: auto;
+      height: 579px;
+
+      /* UI Properties */
+      background: var(--unnamed-color-313131) 0% 0% no-repeat padding-box;
+      opacity: 1;
+    }
+
+    /* overide container-fluid */
+    .container-fluid {
+    padding-right: 5px;
+    padding-left: 5px;
+    width: auto;
+    height: inherit;
+    margin-right: auto;
+    margin-left: auto;
+    }
